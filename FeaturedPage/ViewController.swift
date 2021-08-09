@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  FeaturedPage
 //
-//  Created by Student42 on 7/27/21.
+//  Created by Manav Aul on 7/27/21.
 //
 
 import UIKit

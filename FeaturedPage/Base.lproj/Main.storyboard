@@ -133,7 +133,7 @@
             </objects>
             <point key="canvasLocation" x="5353.6231884057979" y="75.669642857142847"/>
         </scene>
-        <!--Item-->
+        <!--Search-->
         <scene sceneID="Dc3-vH-g0R">
             <objects>
                 <viewController id="aoI-tT-g7j" sceneMemberID="viewController">
@@ -143,7 +143,7 @@
                         <viewLayoutGuide key="safeArea" id="1Xo-uk-0gL"/>
                         <color key="backgroundColor" systemColor="tertiaryLabelColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="Nuk-bb-HiV"/>
+                    <tabBarItem key="tabBarItem" title="Search" image="magnifyingglass" catalog="system" id="Nuk-bb-HiV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Ml-SA-vMP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -190,6 +190,7 @@
     </scenes>
     <resources>
         <image name="Pizza" width="1900" height="1425"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="star.fill" catalog="system" width="128" height="116"/>
         <systemColor name="tertiaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
