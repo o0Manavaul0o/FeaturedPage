@@ -16,6 +16,9 @@
 		D398EBC626B07298002A9EBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D398EBC426B07298002A9EBE /* LaunchScreen.storyboard */; };
 		D398EBD126B07298002A9EBE /* FeaturedPageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D398EBD026B07298002A9EBE /* FeaturedPageTests.swift */; };
 		D398EBDC26B07298002A9EBE /* FeaturedPageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D398EBDB26B07298002A9EBE /* FeaturedPageUITests.swift */; };
+		D3BDF65026C0C12300819E7B /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF64F26C0C12300819E7B /* AccountViewController.swift */; };
+		D3BDF65226C0C1CE00819E7B /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF65126C0C1CE00819E7B /* NewViewController.swift */; };
+		D3EBDB3026C0BB9D00772BB6 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EBDB2F26C0BB9D00772BB6 /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		D398EBD726B07298002A9EBE /* FeaturedPageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeaturedPageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D398EBDB26B07298002A9EBE /* FeaturedPageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedPageUITests.swift; sourceTree = "<group>"; };
 		D398EBDD26B07298002A9EBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3BDF64F26C0C12300819E7B /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		D3BDF65126C0C1CE00819E7B /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		D3EBDB2F26C0BB9D00772BB6 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,9 @@
 		D398EBAD26B07291002A9EBE = {
 			isa = PBXGroup;
 			children = (
+				D3BDF65126C0C1CE00819E7B /* NewViewController.swift */,
+				D3BDF64F26C0C12300819E7B /* AccountViewController.swift */,
+				D3EBDB2F26C0BB9D00772BB6 /* SearchViewController.swift */,
 				D398EBB826B07292002A9EBE /* FeaturedPage */,
 				D398EBCF26B07298002A9EBE /* FeaturedPageTests */,
 				D398EBDA26B07298002A9EBE /* FeaturedPageUITests */,
@@ -261,7 +270,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3EBDB3026C0BB9D00772BB6 /* SearchViewController.swift in Sources */,
 				D398EBBE26B07292002A9EBE /* ViewController.swift in Sources */,
+				D3BDF65226C0C1CE00819E7B /* NewViewController.swift in Sources */,
+				D3BDF65026C0C12300819E7B /* AccountViewController.swift in Sources */,
 				D398EBBA26B07292002A9EBE /* AppDelegate.swift in Sources */,
 				D398EBBC26B07292002A9EBE /* SceneDelegate.swift in Sources */,
 				D329A6F426BC4B30004FBAF3 /* DetailViewController.swift in Sources */,

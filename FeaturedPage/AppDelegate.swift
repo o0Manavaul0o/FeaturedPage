@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  FeaturedPage
+//  Emmett_FoodApp
 //
-//  Created by Student42 on 7/27/21.
+//  Created by Emmett Kennedy on 7/23/21.
 //
 
 import UIKit
